@@ -1,4 +1,4 @@
-# Arithmatic Operators
+### Arithmatic Operators ###
   Addition (+)
     x + y = 20 + 10 = 30
   Substraction (-)
@@ -16,7 +16,7 @@
     x // y = 10 // 3 = 3 instead of 3.3333333
              16 // 3 = 5 instead of 5.3333333
 
-# Assignment Operators
+### Assignment Operators ###
   Equal (=)
     x = 5 means x = 5
   Increment (+=)
@@ -24,16 +24,68 @@
   Decrement (-=)
     x -= 3 means x = x - 3
     
-# Comparison Operators
+### Comparison Operators ###
   Equal (x == y)   
     x = 10, y = 20, print(x == y) => False
-  Not Equal (!=) x != y
+  Not Equal (x != y) 
     x = 10, y = 10, print(x != y) => False
   Greater Than (x > y)
-    
+    x = 10, y = 20, print(x > y) => False
   Less Than (x < y)
-    
+    x = 10, y = 20, print(x < y) => True
   Greater than or equal to (x >= y)
-    
+    x = 10, y = 20, print(x >= y) => False
   Less than or equal to (x <= y)
+    x = 10, y = 20, print(x <= y) => True
+
+### Logical Operators (For multiple conditions) ###
+  and (Returns TRUE if all the statements are TRUE)
+    x = 10, y = 20, print(x == 10 and x < y and x == y) => FALSE
+  or (Returns TRUE if any one of the statements is TRUE)
+    x = 10, y = 20, print(x == 10 or x < y or x == y) => TRUE
+  not (Reverse the result, returns FALSE if the result is TRUE)
+    x = 10, y = 20, Print(not x != 10) => TRUE
     
+### Membership Operators ###
+  in (Returns TRUE if a sequence with the specified value is present in the object)
+    string1 = "Hello"
+    print('h' in string1)         # Python is CASE-SENSITIVE language.
+    FALSE
+
+  not in (Returns TRUE if a sequence with the specified value is bot present in the object)
+    l = [10,20,30,40,50]
+    print(50 in l) =>   FALSE
+    print(50 not in l) =>   TRUE
+    
+### Identity Operators ###
+  is (Returns TRUE if both variables are the same object)
+  x = 10, y = 10
+  print(x is y, x == y)
+  
+  is not (Returns TRUE if both variables are not the same object)
+    x = 10, y = 10
+    print(x is not y, x != y)
+    
+### Bitwise Operators ###
+
+  When 1 = TRUE, 0 = FALSE
+
+TRUTH TABLE:    
+      A   B   A&B   A|B   A^B
+      0   0   0     0     0
+      0   1   0     1     1
+      1   0   0     1     1
+      1   1   1     1     0
+
+  & (AND) - Both side are 1, it will be TRUE.
+    x = 10, y = 8, 
+    print(bin(x)) = 0b1010, Binary of 10 = 1010
+    print(bin(y)) = 0b1000, Binary of 8 = 1000
+    print(x&y, bin(x&y)) = 8
+    
+  | (or) - Any or both of the side are 1, it will be TRUE.
+    print(x|y, bin(x|y)) = 10
+    
+  ^ (XOR) - Both side are SAME, it will be FALSE.
+    print(x^y, bin(x^y)) = 2
+  
