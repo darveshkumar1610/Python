@@ -8,13 +8,16 @@ Install Pycharm for Python
   - Never have space in between
     - Memory address assigned to Values
     - To get the memory address use print(id(a))
- - Arithmetic Operators in Python
+
+# Operators in Python
+ - Arithmetic Operators in Python (+, -, *, /, % Modulus, ** Exponents, // Floor division)
  - Assignment Operators in Python
  - Comparison Operators in Python
  - Logical Operators in Python
  - Membership Operators in Python
  - Identity Operators in Python
  - Bitwise Operators in Python
+
 Data Types in Python
 User Input & Type Casting in Python
  - If, If Else & If Elif Else Conditional Statements in Python
