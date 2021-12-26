@@ -1,9 +1,8 @@
 # Python
-Install Pycharm for Python
-
+# Install Pycharm for Python
 - Create the First Python ''Hello World'' Program using Print Function
 
-- Create & Use Variables in Python
+# Variables in Python
   - Never start with Number or special character except underscore(_)
   - Never have space in between
     - Memory address assigned to Values
@@ -18,15 +17,32 @@ Install Pycharm for Python
  - Identity Operators in Python
  - Bitwise Operators in Python
 
-Data Types in Python
-User Input & Type Casting in Python
+# Data Types in Python
+  - Numeric
+    - Int
+    - Float
+    - Complex Numbers
+  - Sequence
+    - String
+    - List (Mutable)
+    - Tuple
+  - Dictionary (Mutable)
+  - Set (Unique items)
+
+# User Input & Type Casting in Python
+  - input()
+  - int()
+  - float()
+  - eval()
+ 
+ # Conditions or Loop
  - If, If Else & If Elif Else Conditional Statements in Python
    - How to Build a Simple Calculator in Python
  - For Loop with Range () in Python
  - While Loop in Python
 
-String Concatenation in Python (string + string)
-
+# Strings in detail
+ - String Concatenation in Python (string + string)
  - String Indexing & String Slicing in Python
  - String Iteration in Python
  - Lower, Upper, Title & Capitalize String Functions in Python
@@ -34,6 +50,7 @@ String Concatenation in Python (string + string)
  - Ord() and Chr() Functions in Python
  - String Format () Method in Python
 
+# List in Detail
 List in Python
 List Iteration in Python
 List Function - (Pop, Remove & Clear) List Method
@@ -44,16 +61,19 @@ Zip Function - Iterate Over 2+ Lists at the Same Time
 Python Program to Convert String to a List
 Implement a Stack and Queue Using a List Data Type
 
+# Dictionary in Detail
 Introduction to Dictionary in Python
 Dictionary Function & Method in Python
 Python Nested Dictionary
 
+# Tuple in Detail
 Tuple in Python
 
+# Set in Detail
 Sets in Python
 Functions in Python
 
-Modules in Python
+# Modules in Python
  - Math Module in Python
  - Random Module in Python
  - Datetime Module in Python
@@ -61,11 +81,11 @@ Modules in Python
  - Python - Rock, Paper, Scissors Game (Using Random Module)
  - Pickle Module
 
-JSON in Python
-Convert JSON Data to Python Object
-Reading and Writing JSON File in Python
+# JSON in Python
+  - Convert JSON Data to Python Object
+  - Reading and Writing JSON File in Python
 
-Object Oriented Programming(Class & Object)
+# Object Oriented Programming(Class & Object)
  - Object Oriented Programming (Methods & Constructors)
  - Inheritance in Python
  - Encapsulation in Python (Object Oriented Programming)
@@ -74,10 +94,10 @@ Object Oriented Programming(Class & Object)
  - Method Overloading & Method Overriding in Python
  - Bike Rental System
 
-Python Errors and Built-in Exceptions
-Python Exception Handling
+# Python Errors and Built-in Exceptions
+  - Python Exception Handling
 
-Python - SQLite (DB Create and Connection)
+# Python - SQLite (DB Create and Connection)
  - Python: Installing DB Browser for SQLite
  - Insert Query - SQLite
  - Select Query, Order By & Limit
@@ -86,11 +106,12 @@ Python - SQLite (DB Create and Connection)
  - SQLite WHERE Clause
  - SQLite JOIN
 
-Install XAMPP on Windows - PyMySQL
+# Install XAMPP on Windows - PyMySQL
  - Python: Creating MySQL Database & Connection
  - MySQL Data Types
 
-Python MySQL Create Table
+# Python MySQL Operations
+ - MySQL Create Table Query using Python
  - MySQL Insert Query using Python
  - MySQL Select Query using Python
  - MySQL Delete Query using Python
