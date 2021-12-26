@@ -12,9 +12,9 @@ if opr == "+":
   print(num1 + num2)
 elif opr == "-":
   print(num1 - num2)
-if opr == "*":
+elif opr == "*":
   print(num1 * num2)
-if opr == "/":
+elif opr == "/":
   print(num1 / num2)
 else:
-  print("Invalid Operation Type")
+  print("Invalid Operation Type (+,-,*,/) ")
