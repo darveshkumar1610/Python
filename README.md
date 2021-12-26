@@ -122,7 +122,7 @@
  - Python Nested Dictionary
 
 # Tuple in Detail
- - Tuple in Python
+ - Tuple in Python (Single value will not be a tuple)
 
 # Set in Detail
  - Sets in Python
