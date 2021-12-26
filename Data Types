@@ -1,0 +1,40 @@
+### Mutable Data Types (Can update/delete its state & contents)
+    - List, Dictionary, Byte Array
+### Immutable Data Types (Cannot change its state & contents)
+    - Int, Float, Complex, String, Tuple, Set
+
+### Numeric ###
+  Integer
+    a = 5, print(a, "is of type ", type(a))     # 5 is of type <class 'int'>
+  Float (with points)
+    a = 2.0, print(a, "is of type ", type(a))     # 2.0 is of type <class 'float'>
+  Complex Numbers
+    a = 1+2j, print(a, "is of type ", type(a))     # (1+2j) is of type <class 'complex'>
+    
+### Sequence ###
+  String (Collection of one or more characters put in single/double/triple quotes, where multilines strings can be denoted using triple quotes ''' or """)
+    s = "This is a string"
+    print(s)
+    
+  [] List (Ordered sequence of items separated by commas. It is one of the most used datatype in python and very flexible)
+    l = [10,'sw',5.5]
+    l[2] = 6                # It will update the item at index 2 i.e. 5.5
+    print(l, type(l)))
+    
+  () Tuple (Ordered sequence of items separated by commas. But items cannot be updated. Fast processing than LIST)
+    t = (10,20,'hello')
+    print(t, type(t))
+
+### Others
+  {} Dictionary (Unordered collection of items which is key-value pairs. Keys will be unique and cannnot be used more than once, Mostly used with DATABASES)
+    d = {'name':'',
+         'age':20}
+    print(d, type(d))
+    print(d['name'])
+
+  {} Set (Unordered collection of items, Every set element is unique (no duplicates) and must be immutable)
+    s = {1,2,3}
+    print(s)
+    
+    s1 = {10,20,30,10}
+    print(s1)                 # It will automatically remove the duplicate items in a set.
