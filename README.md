@@ -29,15 +29,64 @@
   - Dictionary (Mutable)
   - Set (Unique items)
 
-# User Input & Type Casting in Python
-  - input()
-  - int()
-  - float()
-  - eval()
+# User Input & Type Casting (conversion) in Python
+  - input() - To take an input from user at the runtime which will be a STRING always.
+      a = input("Enter the value: ")
+      print(a)
+      
+  - int() - Convert an input into float
+      a = int(input("Enter the value1: "))
+      b = int(input("Enter the value2: "))
+      print(a+b)
+      
+  - float() - Convert an input into float
+  - eval() - Convert an input into int/float/binary
  
- # Conditions or Loop
- - If, If Else & If Elif Else Conditional Statements in Python
-   - How to Build a Simple Calculator in Python
+ # Conditional Statements in Python (Indentation must have same space/tab)
+ - If (For single condition)
+    if [conditional expression]:
+      [statement(s) to be exceuted]
+      
+    a = int(input("Enter the value: "))
+    if a%2==0:
+      print(a, "is an Even Number")
+      
+ - If Else (For two conditions)
+    if [conditional expression]:
+      [statement(s) to be exceuted]
+    else:
+      [alternate statement(s) to be exceuted]
+      
+    a = int(input("Enter the value: "))
+    if a%2==0:
+      print(a, "is an Even Number")
+    else:
+      print(a, "is an Odd Number")
+      
+ - If-Elif-else (For Mulitple Conditions)
+    if [condition#1]:
+      [execution statement#1]
+    elif [condition#2]:
+      [execution statement#2]
+    elif [condition#3]:
+      [execution statement#3]
+    else:
+      [exection statement when if and elif(s) are FALSE]
+      
+    marks = 55
+    if marks >= 60:
+      print("First Division")
+    elif marks >= 50:
+      print("Second Division") 
+    elif marks >= 35:
+      print("Third Division") 
+    else:
+      print("Fail")
+      
+ - How to Build a Simple Calculator in Python (simpleCalculator.py)
+
+
+# Loops
  - For Loop with Range () in Python
  - While Loop in Python
 
@@ -51,27 +100,27 @@
  - String Format () Method in Python
 
 # List in Detail
-List in Python
-List Iteration in Python
-List Function - (Pop, Remove & Clear) List Method
-Python List Comprehension - Elegant way to Create Lists
-(Pop, Remove & Clear) List Method
-Count, Max, Min, Sort, Reverse & Index List Function
-Zip Function - Iterate Over 2+ Lists at the Same Time
-Python Program to Convert String to a List
-Implement a Stack and Queue Using a List Data Type
+ - List in Python
+ - List Iteration in Python
+ - List Function - (Pop, Remove & Clear) List Method
+ - Python List Comprehension - Elegant way to Create Lists
+ - (Pop, Remove & Clear) List Method
+ - Count, Max, Min, Sort, Reverse & Index List Function
+ - Zip Function - Iterate Over 2+ Lists at the Same Time
+ - Python Program to Convert String to a List
+ - Implement a Stack and Queue Using a List Data Type
 
 # Dictionary in Detail
-Introduction to Dictionary in Python
-Dictionary Function & Method in Python
-Python Nested Dictionary
+ - Introduction to Dictionary in Python
+ - Dictionary Function & Method in Python
+ - Python Nested Dictionary
 
 # Tuple in Detail
-Tuple in Python
+ - Tuple in Python
 
 # Set in Detail
-Sets in Python
-Functions in Python
+ - Sets in Python
+ - Functions in Python
 
 # Modules in Python
  - Math Module in Python
