@@ -1,0 +1,39 @@
+# Arithmatic Operators
+  Addition (+)
+    x + y = 20 + 10 = 30
+  Substraction (-)
+    x - y = 20 - 10 = 10
+  Multiplication (*)
+    x * y = 20 * 10 = 200
+  Division (/)
+    x / y = 20 / 10 = 2
+  Modulus (%) - Remander
+    x % y = 10 % 3 = 1
+  Exponents (**) - x raise to the Power of y.
+    x ** y = 5**2 = 5*5 = 25
+             5**3 = 5*5*5 = 125
+  Floor Division (//) - Print Only integer out of Float
+    x // y = 10 // 3 = 3 instead of 3.3333333
+             16 // 3 = 5 instead of 5.3333333
+
+# Assignment Operators
+  Equal (=)
+    x = 5 means x = 5
+  Increment (+=)
+    x += 3 means x = x + 3
+  Decrement (-=)
+    x -= 3 means x = x - 3
+    
+# Comparison Operators
+  Equal (x == y)   
+    x = 10, y = 20, print(x == y) => False
+  Not Equal (!=) x != y
+    x = 10, y = 10, print(x != y) => False
+  Greater Than (x > y)
+    
+  Less Than (x < y)
+    
+  Greater than or equal to (x >= y)
+    
+  Less than or equal to (x <= y)
+    
