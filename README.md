@@ -151,41 +151,98 @@
   - return type
 
 # Modules in Python
- - Math Module in Python
- - Random Module in Python
+ - Math Module in Python (https://docs.python.org/3.7/library/math.html)
+   - math.ceil(): return the ceiling of x, the smallest integer >= x. If x is not float, delegates to x.__ceil__() which returns an integral value.
+   - math.floor(): return the floor of x, the largest integer <= x. If x is not float, delegates to x.__floor__() which returns an integral value.
+   - math.fabs(): return the absolute value of x.
+   - math.factorial(): return x factoriak as an integer. Raises Value Error if x is not integral or is negative.
+   - math.fsum(list/tuple): retrun an accurate floating point sum of all the elements in the iterable (list/tuple).
+   - math.sqrt(): return the sqaure root of an integer.
+ - Random Module in Python (Generate random numbers)
+   - random.randint(a,b): return a number between a and b (both included).
+   - random.randrange(a,b): return a numbers between a (included) and b (not included).
+   - random.choice(l): return a random element from a list.
+   - random.random(): returns a random float number between 0 & 1.
+   - random.shuffle(l): Takes a sequence and returns the sequence in a random order.
+   - random.uniform(a,b): returns a random float number between two given numbers.
  - Datetime Module in Python
+   - datetime.datetime.now(): return current date and time containing year, month, day, hr, min, sec and microsecond.
+   - datetime.datetime.now.strftime(%Y): Separate year, month, day, hr, min, sec from current time.
+   - datetime.datetime(2021,12,25): create date objects date with time.
  - Python - Random Number Guessing Game (Using Random Modeul)
  - Python - Rock, Paper, Scissors Game (Using Random Module)
  - Pickle Module
+   - dump()
+   - load()
 
 # JSON in Python
   - Convert JSON Data to Python Object
+      - json.dumps(): convert dictionary to json.
+      - json.loads(): convert json to dictionary.
   - Reading and Writing JSON File in Python
 
-# Object Oriented Programming(Class & Object)
+# Object Oriented Programming (Class (Variables and Methods/function) & Object)
  - Object Oriented Programming (Methods & Constructors)
+   - Methods need to call with objects but Constructors (__init__) do not need to call.
  - Inheritance in Python
- - Encapsulation in Python (Object Oriented Programming)
+   - Single: where B (Child) class will inherit the properties of A (Parent)
+   - Multi-Level: where B(Parent) class will inherit the properties of A(Grandparent) & C(Child) will inherit the properties of B(Parent).
+   - Multiple: where C(Child) class can inherit the properties of A(Grandparent) & B(Parent).
+ - Encapsulation in Python: 
+   - An Objects variables should not always be directly accessible. 
+   - The methods can ensure the correct values are set. If an incorrect value is set, the method can return an error.
  - Getter and Setter Method in Python
- - Polymorphism in Python
- - Method Overloading & Method Overriding in Python
+ - Polymorphism in Python: Same function name (but different signatures) being used for different types. E.g. len() function for list & string.
+   - Overloading Method: function with multiple parameters.
+   - Overriding Method: Same function in 2 Inherittted classes. The Parent Class function can be called in Child class function using super() function.
+     It mostly used for memory reducing processing as it need to call one child function only.
  - Bike Rental System
 
 # Python Errors and Built-in Exceptions
-  - Python Exception Handling
+  - Python Exception Handling (with TRY and ACCEPT)
+    - Syntax Errors: can not handled automatically. We have to resolve Syntax errors.
+    - Logical Errors (Exceptions): Can be handled.
+      - ZeroDivisionError: a=10 print(a/10)
+      - NameError: print(b)
+      - TypeError: print('10'+10)
+      - ValueError: a=int(input("Enter the value"))
+      - IndexError: l=[1,2,3,4] print(l[4])
+      - KeyError: d={'name':'Testing','fee':5000} print(d[fees])
+      - ModuleNotFound: When using module which is not build or available
+      - ImportError: When using a function which is not available in module.
 
 # Python - SQLite (DB Create and Connection)
  - Python: Installing DB Browser for SQLite
+   - Search for DB Browser for sqlite in google and download for 64-bit Windows
+   - Install DB Browser > Install anyway > Next > Accept > Next > Next > Finish
+   - Open sqlite.db file in DB Browser
  - Insert Query - SQLite
  - Select Query, Order By & Limit
  - SQLite Delete Query
  - SQLite Update Query
  - SQLite WHERE Clause
- - SQLite JOIN
+ - SQLite JOIN (sqlite3.OperationalError: RIGHT and FULL OUTER JOINs are not currently supported.)
+   - (INNER) JOIN: Returns records that have only matching values in both the tables
+   - LEFT(OUTER)JOIN: Returns all records from the LEFT table and the matched records from the RIGHT table.
+   - RIGHT(OUTER)JOIN: Returns all records from the RIGHT table and the matched records from the LEFT table.
+   - FULL(OUTER)JOIN: Returns all records when there is a match in either LEFT or RIGHT table
 
-# Install XAMPP on Windows - PyMySQL
- - Python: Creating MySQL Database & Connection
+# Download and Install XAMPP on Windows - PyMySQL
+ - install pymysql package "pip install pymysql"
+   - Start Apache and MySQL in XAMPP Control Panel and Open localhost/phpmyadmin in the web browser
+ - Python: Creating MySQL Database & Connection (mysql.py)
  - MySQL Data Types
+   - TINYINT (till 3 digit)
+   - INT (till 11 digit)
+   - BIGINT (till 20 digit)
+   - VARCHAR (0-255)
+   - TEXT (0-60000)
+   - LONGTEXT ()
+   - DATE (YYYY-MM-DD)
+   - DATETIME (YYYY-MM-DD HH:MM:SS)
+   - TIMESTAMP (Current Time)
+   - TIME (HH:MM:SS)
+   - YEAR (YYYY)
 
 # Python MySQL Operations
  - MySQL Create Table Query using Python
