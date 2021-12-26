@@ -123,10 +123,32 @@
 
 # Tuple in Detail
  - Tuple in Python (Single value will not be a tuple)
+ - Iteration (With len() and range() function OR with using tuple directly)
+ - Tuple Functions: 
+   - min() - Print the min number from the tuple elements. 
+   - max() - Print the max number from the tuple elements. 
+   - count() - how much time an element exists in tuple, 
+   - index() - Print the index number of an element in the tuple 
+   - sum() - Sum of all the elements (int or float only) in tuple
 
 # Set in Detail
  - Sets in Python
- - Functions in Python
+   - Unordered, unindexed, unique data, no duplicates (will be removed automatically)
+   - written in curly braces e.g. {10,20,30,40}
+   - Iteration will be using for loop directly on set and not using indexes.
+ - Set Functions in Python
+   - set() - To convert a list or tuple into set.
+   - add() - Add a new element into existing set.
+   - pop() - Delete an element from a set without indexing/value. It can show the element to be deleted.
+   - remove() - Remove a specified valued element from set, if element does not exist, it will raise an error.
+   - discard() - Remove a specified valued element from set, if element does not exist, it will NOT raise any error. 
+   - clear() - Clear all the elements from a set and print set().
+   - update() - Add new elements in a set with unique values.
+
+# User Defined Functions in Python
+  - simple function
+  - function with arguments
+  - return type
 
 # Modules in Python
  - Math Module in Python
