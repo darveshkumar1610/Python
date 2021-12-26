@@ -1,7 +1,13 @@
 # Python
 Install Pycharm for Python
-Create the First Python ''Hello World'' Program using Print Function
-Create & Use Variables in Python
+
+- Create the First Python ''Hello World'' Program using Print Function
+
+- Create & Use Variables in Python
+  - Never start with Number or special character except underscore(_)
+  - Never have space in between
+    - Memory address assigned to Values
+    - To get the memory address use print(id(a))
  - Arithmetic Operators in Python
  - Assignment Operators in Python
  - Comparison Operators in Python
@@ -16,7 +22,8 @@ User Input & Type Casting in Python
  - For Loop with Range () in Python
  - While Loop in Python
 
-String Concatenation in Python
+String Concatenation in Python (string + string)
+
  - String Indexing & String Slicing in Python
  - String Iteration in Python
  - Lower, Upper, Title & Capitalize String Functions in Python
