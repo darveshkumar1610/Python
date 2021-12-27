@@ -181,7 +181,7 @@
       - json.loads(): convert json to dictionary.
   - Reading and Writing JSON File in Python
 
-# Object Oriented Programming (Class (Variables and Methods/function) & Object)
+# Object Oriented Programming (Class (Variables/Attributes and Methods/function) & Object)
  - Object Oriented Programming (Methods & Constructors)
    - Methods need to call with objects but Constructors (__init__) do not need to call.
  - Inheritance in Python
