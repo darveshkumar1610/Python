@@ -182,8 +182,9 @@
   - Reading and Writing JSON File in Python
 
 # Object Oriented Programming (Class (Variables/Attributes and Methods/function) & Object/Instance of a Class)
+ - Class (int and str are also a class)
  - Object Oriented Programming (Methods & Constructors)
-   - Methods need to call with objects but Constructors (__init__) do not need to call.
+   - Methods need to call with objects but Constructors (`__init__`) do not need to call.
  - Inheritance in Python
    - Single: where B (Child) class will inherit the properties of A (Parent)
    - Multi-Level: where B(Parent) class will inherit the properties of A(Grandparent) & C(Child) will inherit the properties of B(Parent).
